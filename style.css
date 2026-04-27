@@ -1,33 +1,66 @@
+html{
+  scroll-behavior: smooth; /* hace que scrollee suavemente siempre va en la html*/
+}
 body{
     margin: 0;
+    padding: 0;
+  
 }
-.navbar{
-
+nav{
+    display: flex;  
+    position: fixed;
+    width: 100%;
+    top: 0;
     padding: 5px;
     background-color:rgb(4, 39, 60);
 }
-.title{
+.navbar.head{
+    z-index: 100;
     color: #fff;
+    padding-left: 10px;
+}
+.elements{
+  display:flex;
+  z-index: 0;
+  align-items: center;
+  justify-content:left;
+  text-align: center;
+
 }
 .menubar.nav{
     list-style: none;
     display: flex;
     gap: 16px;
+    z-index: 0;
     align-items: center;
     justify-content: right;
     text-align: center;
-    float: left;
+    transform: translateX(700px);
 }
 .directions{
+    scroll-behaviour: smooth;
     color: #fff;
     text-decoration: none;
 }
 .heading{
-    margin: 100px;
-    padding: 100px;
+    height: 100vh;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     background-color: rgb(59, 153, 153);
+}
+#aboutme{
+  height: 100vh;/*significa que ocupa el tamaño de la ventana*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #43BF9B;
+}
+#codeforces{
+  color: black;
+  
 }
