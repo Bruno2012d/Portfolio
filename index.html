@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Bruno Páez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body onload="window.scrollTo(0,0)"> 
 <nav class="navbar">
@@ -26,18 +35,17 @@
         <p>My name is Bruno, I'm 13 Years old, I study in Solymar 3 highschool, I like playing videogames <br>and I like 
             solving problems on <a id="codeforces" href="https://codeforces.com/profile/losstype">Codeforces</a> </p>
     </div>
-    <div id="skills">
-        <h1>My Skills</h1>
-        <span>Javascript</span>
-        <div class="skillbar"></div>
-        <span>Html</span>
-        <div class="skillbar"></div>
-        <span>Css</span>
-        <div class="skillbar"></div>
-        <span>C++</span>
-        <div class="skillbar"></div>
-        <div class="portfolio">
-    </div>
+    <div class="skills">
+        <h1 id="skills-header">My Skills</h1>
+        <span class="skillbarname">Javascript</span>
+        <div class="skillbar"><div id="js" class="skillbar percentage"></div></div>
+        <span class="skillbarname">Html</span>
+        <div class="skillbar"><div id="html" class="skillbar percentage"></div></div>
+        <span class="skillbarname">Css</span>
+        <div class="skillbar"><div id="css" class="skillbar percentage"></div></div>
+        <span class="skillbarname">C++</span>
+        <div class="skillbar"><div id="cpp" class="skillbar percentage"></div></div>
+      </div>
     <div id="portfolio">      
         <h1>Portfolio</h1>
         <h1>ToDo list</h1>
