@@ -99,14 +99,25 @@ p{
   display: flex;
 }
 .skillbarname{
-  padding:15px ;
   padding-left: 15%;
 }
 .skillbar.percentage{
   background-color:#fff ;
 }
+.globe{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 9px 9px 9px 0px;
+  margin-bottom: 10px;
+  margin-left: 38%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 #js{
-  width: 50%;
+  width: 60%;
 }
 #css{
   width: 60%;
@@ -115,5 +126,5 @@ p{
   width: 80%;
 }
 #cpp{
-  width: 60%;
+  width: 70%;
 }
